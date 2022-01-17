@@ -56,8 +56,8 @@ table, th, td {
 }
 
 .indicator{
-    height: 250px;
-    width: 300px;
+    height: 25%;
+    width: 10%;
 }
 
 #indicatorUser{
