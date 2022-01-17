@@ -139,7 +139,14 @@ caption{
     background-color: yellow;
     box-shadow: 0 0 30px yellow;
 }
-
+.green-glow{
+    box-shadow: 0 0 50px chartreuse;
+    transition: all .3s ease;
+}
+.black-glow{
+    box-shadow: 0 0 50px black;
+    transition: all .3s ease;
+}
 .takeover{
 
     height: 100%;

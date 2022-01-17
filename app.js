@@ -164,8 +164,12 @@ function evaluateChoice(choice){
     opponentPlaced.src="images/"+opponentPlacedCard+".png"
     let winner=determineWinner(userPlacedCard.slice(0,-1),opponentPlacedCard.slice(0,-1))
     if (winner=='u'){
+        userPlaced.classList.add("green-glow")
+        setTimeout(function(){userPlaced.classList.remove("green-glow")},500)
         userScore+=1
     }else if (winner=='o'){
+        userPlaced.classList.add("black-glow")
+        setTimeout(function(){userPlaced.classList.remove("black-glow")},500)
         opponentScore+=1
     }
     document.getElementById("userScore").innerHTML=userScore
