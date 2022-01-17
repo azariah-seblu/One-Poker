@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #24272E;
+    background-color: #ff5252;
+    background-color: black;
+}
+table, th, td {
+    margin: 0px;
+    table-layout: fixed;
+    width:250px;
+    border:3px solid white;
+    font-size:30px;
+    color:white;
+    border-collapse: collapse;
+    background-color: black;
+}
+#tabtitle{
+    height:50%
+}
+.table{
+    height:600px;
+    width:800px;
+    border: 10px solid black;
+    border-top:0px;
+    margin:0 auto;
+    background-color: maroon;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    position:relative;
+}
+
+.slotLeft{
+    height: 359px;
+    width: 250px;
+    border: 10px solid black;
+    background-color:maroon;
+    float: left;
+    margin-top: 600px;
+    margin-left: 120px;
+}
+
+.slotRight{
+    height: 359px;
+    width: 250px;
+    border: 10px solid black;
+    background-color: maroon;
+    margin-top: 600px;
+    float: left;
+}
+
+.indicator{
+    height: 250px;
+    width: 300px;
+}
+
+#indicatorUser{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#indicatorOpponent{
+    caption-side: bottom;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#scoreboard{
+    caption-side: top;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.score{
+    font-size:100px
+}
+.circle1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 12px;
+}
+
+.circle2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+}
+
+caption{
+    padding: 2%;
+}
+.card{
+    height:275px;
+    transition: all .5s ease;
+}
+#userHeldCardLeft:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px yellow;
+}
+#userHeldCardRight:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px yellow;
+}
+#userPlacedCard{
+    position: relative;
+    top:-670px;
+    left:290px;
+}
+#opponentPlacedCard{
+    position: relative;
+    top:-960px;
+    left:97px;
+}
+#userHeldCardLeft{
+    position: relative;
+    top:40px;
+    left:30px;
+}
+#userHeldCardRight{
+    position: relative;
+    top:40px;
+    left:30px;
+}
+.yellow-glow{
+    background-color: yellow;
+    box-shadow: 0 0 30px yellow;
+}
+
+.takeover{
+
+    height: 100%;
+    width: 100%;
+}

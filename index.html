@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>One Poker</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="table">
+            <div class="slotLeft">
+                <img class="card" id="userHeldCardLeft" src="#" alt="">
+            </div>
+            <div class="slotRight">
+                <img class="card" id="userHeldCardRight" src="#" alt="">
+            </div>
+            <img class="card" id="userPlacedCard" src="#" alt="">
+            <img class="card" id="opponentPlacedCard" src="#" alt="">
+        </div>
+        <table id="indicatorUser" class="indicator">
+            <caption>USER INDICATOR</caption>
+            <tr>
+                <th>UP</th>
+                <th>DOWN</th>
+            </tr>
+            <tr>
+                <th>
+                    <div id= "userUp1" class="circle1">
+                        <div id="userUp2" class="circle2"></div>
+                    </div>
+                </th>
+                <th>
+                    <div id="userDown1" class="circle1">
+                        <div id="userDown2" class="circle2"></div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <table id="indicatorOpponent" class="indicator">
+            <caption>OPPONENT INDICATOR</caption>
+            <tr>
+                <th>UP</th>
+                <th>DOWN</th>
+            </tr>
+            <tr>
+                <th>
+                    <div id=opponentUp1 class="circle1">
+                        <div id=opponentUp2 class="circle2"></div>
+                    </div>
+                </th>
+                <th>
+                    <div id=opponentDown1 class="circle1">
+                        <div id=opponentDown2 class="circle2"></div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <table id="scoreboard" class="indicator">
+            <caption>SCOREBOARD</caption>
+            <tr>
+                <th>USER</th>
+                <th>OPPONENT</th>
+            </tr>
+            <tr>
+                <th>
+                    <span id="userScore" class="score" Score>0</span>
+                </th>
+                <th>
+                    <span id="opponentScore" class="score">0</span>
+
+                </th>
+            </tr>
+        </table>
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
